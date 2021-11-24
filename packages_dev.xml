@@ -38,12 +38,12 @@
   <package>
     <name>phantomjs</name>
     <urls>
-      <url>{{ site_mirror }}/contrail-third-party/contrail-webui/common/phantomjs-1.9.20.tgz</url>
-      <url canonical="true">https://github.com/tungstenfabric/tf-third-party-cache/raw/master/contrail-webui/common/phantomjs-1.9.20.tgz</url>
+      <url>{{ site_mirror }}/contrail-third-party/contrail-webui/common/phantomjs-1.9.19.tgz</url>
+      <url canonical="true">https://github.com/tungstenfabric/tf-third-party-cache/raw/master/contrail-webui/common/phantomjs-1.9.19.tgz</url>
     </urls>
     <format>npm</format>
     <install-arguments>--phantomjs_cdnurl=https://github.com/tungstenfabric/tf-third-party-cache/raw/master/contrail-webui/common/phantomjs-bin</install-arguments>
-    <md5>ab29efcc09406a12688a250e19bc384d</md5>
+    <md5>d0715ffef1331c1a6fd324668041a22a</md5>
   </package>
   <package>
     <name>karma-phantomjs-launcher</name>
