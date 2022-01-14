@@ -163,10 +163,10 @@ def ResolveDistro(url, md5, ccfile, pkg):
 
 
 def DownloadPackage(urls, ccfile, pkg):
-    md5 = pkg.md5
     pkg.ccfile = ccfile
     for i in range(_RETRIES):
         for url in urls:
+            md5 = pkg.md5
             url = url.text
             if "{{ site_mirror }}" in url:
                 if not ARGS['site_mirror']:
